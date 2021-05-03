@@ -7,7 +7,6 @@ def fizzbuzz(int)
     "Buzz"
   elsif int % 3 == 0
     "Fizz"
-  else int (int % 3 != 0) || (int % 5 != 0)
-    "nil"
+  else "nil"
   end
 end
